@@ -1,3 +1,8 @@
+*{
+  margin-top: 0;
+  padding-top: 0;
+}
+
 /* Base font */
 .open-sans-font {
   font-family: "Open Sans", sans-serif;
@@ -17,9 +22,10 @@
   align-items: center;
   max-width: 880px;
   margin: 0 auto;
+  padding-top: 20px;
 
 }
-
+/* color */
 .dark01 {
   color: #131313;
 }
@@ -39,7 +45,7 @@
 .orange {
   color: #FF900E;
 }
-
+/* menu */
 .menu ul {
   display: flex;
   gap: 40px;
@@ -100,3 +106,148 @@
 
 }
 
+/* main-section */
+.our-features {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin-top: 40px;
+}
+
+.our-features .image {
+  max-width: 460px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px;
+}
+
+.our-features .image img {
+  width: 100%;
+}
+
+.our-features .content {
+  max-width: 320px;
+}
+
+.our-features .content h3 {
+  font-size: 25px;
+}
+
+.our-features .content p {
+  font-size: 10px;
+  margin-top: 0px;
+}
+
+.features-btn {
+  float: left;
+  margin-top: 18px;
+}
+
+/* experiance-section */
+.experiance {}
+
+
+.experiance .container {
+  max-width: 880px;
+  max-height: 680px;
+  margin: 70px auto;
+  display: flex;
+  gap: 70px;
+  position: relative;
+}
+
+.container-content {
+  max-width: 370px;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.experiance .container .container-content .vr-line {
+  width: 3px;
+  height: 50px;
+  background-color: #FF900E;
+}
+
+.container-content h3 {
+  font-size: 24px;
+}
+
+.container-content p {
+  font-size: 10px;
+  margin-top: 0px;
+}
+
+.grid {
+  grid-template-columns: repeat(1, 1fr);
+  margin-top: 22px;
+ 
+}
+
+.grid .card {
+  /* gap: 30px; */
+  margin-top:18px;
+  /* padding:4 px; */
+  border-radius: 3px;
+  box-shadow:0.001px 0.001px 8px #dad2d2;
+  padding: 10px;
+}
+.card h5{
+}
+.card p {
+  font-size: 11px;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+.experiance .container .image {
+  max-width: 440px;
+}
+
+.experiance .container .image img {
+  width: 100%;
+  float: right;
+
+}
+
+.container .box {
+  width: 180px;
+  height: 100px;
+  background-color: #FF900E;
+  position: absolute;
+  right: 295px;
+  bottom: 10px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.box>h1 {
+  color: #FFFFFF;
+}
+
+.box>p {
+  color: #FFFFFF;
+}
+
+.container .box h1 {
+  margin-top: 5px;
+  padding-top: 10px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  font-size: 30px;
+
+}
+
+.container .box  p {
+  font-size: 14px;
+  margin-top: 0px;
+  padding-top: 0px;
+ 
+
+}
+
+/* another-section-loading */
